@@ -149,6 +149,7 @@ body {
     max-height: calc(100vh - 20px);
     display: block;
     font-family: "Georgia";
+    overflow-y: auto;
 }
 
 .modal-content h2 {

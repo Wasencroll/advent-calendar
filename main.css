@@ -156,7 +156,7 @@ body {
     height: 70%;
     display: block;
     font-family: "Georgia";
-    overflow-y: auto;
+    overflow-y: scroll;
     text-align: center;
     align-items: center;
 }
@@ -170,7 +170,7 @@ body {
     height: 100%;
     display: block;
     font-family: "Georgia";
-    overflow-y: auto;
+    overflow-y: scroll;
     text-align: center;
 }
 

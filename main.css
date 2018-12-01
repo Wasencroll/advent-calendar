@@ -147,6 +147,7 @@ body {
     min-width: 50%;
     max-width: 90%;
     max-height: calc(100vh - 20px);
+    height: 70%;
     display: block;
     font-family: "Georgia";
     overflow-y: auto;
@@ -183,6 +184,13 @@ body {
 .modal-content embed {
     display: block;
     min-height: 50%;
+}
+
+.modal-content iframe {
+    width: 100%;
+    height: auto !important;
+    min-height: 100%;
+    max-height: 100%;
 }
 
 .modal-content a {

@@ -54,6 +54,7 @@ function openDoor (id) {
 
 function closeModal (id) {
     document.getElementById(id).style.display = 'none';
+    document.documentElement.classList.remove('.flex-item figure:hover');
 }
 
 $(document).ready(function() {

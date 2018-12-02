@@ -43,7 +43,7 @@ body {
     bottom: 5%;
     position: absolute;
     height: 70%;
-    align-content: space-between;
+    align-content: center;
 }
 
 .flex-container > * {
@@ -55,8 +55,8 @@ body {
     @supports (display: grid) {
         .flex-container {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(calc(100% * (1 / 8) - 40px - 1px), 1fr));
-            grid-gap: 40px;
+            grid-template-columns: repeat(auto-fill, minmax(calc(100% * (1 / 8) - 30px - 1px), 1fr));
+            grid-gap: 30px;
         }
 
         .flex-container > * {
@@ -69,8 +69,8 @@ body {
     @supports (display: grid) {
         .flex-container {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(calc(100% * (1 / 6) - 20px - 1px), 1fr));
-            grid-gap: 20px;
+            grid-template-columns: repeat(auto-fill, minmax(calc(100% * (1 / 6) - 30px - 1px), 1fr));
+            grid-gap: 30px;
         }
         .flex-container > * {
             padding: 0;
@@ -102,6 +102,9 @@ body {
 
 .flex-item figure:hover {
     background-color: rgba(255,255,255, 0.6);
+}
+.flex-item figure:focus {
+    background-color: rgba(255,255,255, 0);
 }
 
 .flex-item content {

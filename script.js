@@ -54,4 +54,13 @@ function openDoor (id) {
 
 function closeModal (id) {
     document.getElementById(id).style.display = 'none';
+
 }
+
+$(document).ready(function() {
+    $(window).resize(function() {
+        var width = $(window).width();
+        var height = $(window).height();
+        console.log(width);
+    })
+});

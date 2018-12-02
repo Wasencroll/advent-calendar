@@ -53,16 +53,8 @@ function openDoor (id) {
 }
 
 function closeModal (id) {
-    var video = document.getElementById("video24")[0];
-    function stopVideo(vid){
-        vid.pause();
-        vid.currentTime = 0;
-        vid.load();
-    }
-    stopVideo(video);
 
     document.getElementById(id).style.display = 'none';
-    document.documentElement.classList.remove('.flex-item figure:hover');
 }
 
 $(document).ready(function() {

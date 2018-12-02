@@ -644,15 +644,11 @@
     </div>
 </div>
 
-<!--<script language="javascript" type="text/javascript" src="jquery-1.8.2.js"></script>-->
-<!--<script language="javascript" type="text/javascript">
-    $(function(){
-        $('.button').click(function(){
-            $('iframe').attr('src', $('iframe').attr('src'));
-            document.getElementById('myModal').style.display='none';
-            //document.getElementById('video').pause();"
-        });
-    });
-</script>-->
+<script>
+    document.addEventListener('touchstart', function addtouchclass(e){ // first time user touches the screen
+        document.documentElement.classList.add('can-touch') // add "can-touch" class to document root using classList API
+        document.removeEventListener('touchstart', addtouchclass, false) // de-register touchstart event
+    }, false)
+</script>
 </body>
 </html>

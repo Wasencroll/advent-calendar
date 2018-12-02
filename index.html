@@ -138,12 +138,13 @@
                     <div class="modal-container">
                         <div class="modal-content-wrapper">
                             <header class="modal-header">
-                                <span onclick="callPlayer('video24', 'stopVideo', 'modal24')"
+                                <span onclick="closeModal('modal24')"
                                       class="button display-topright">&times;</span>
                                 <h2>December 24</h2>
                             </header>
                             <div class="modal-content">
-                                <video controls preload="auto" width="250" height="120">
+                                <div class="iframe-wrapper">
+                                <video id="video24" controls poster="poster.jpg" preload="auto">
                                     <source src="IMG_5203.mp4"
                                             type="video/webm">
                                     <source src="IMG_5203.mp4"
@@ -151,6 +152,7 @@
 
                                     <p>Sorry, your browser doesn't support embedded videos.</p>
                                 </video>
+                                </div>
                             </div>
                         </div>
                     </div>

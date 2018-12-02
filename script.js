@@ -53,6 +53,14 @@ function openDoor (id) {
 }
 
 function closeModal (id) {
+    $("#video24")[0].pause();
+    /*var video = document.getElementById("video24");
+    function stopVideo(vid){
+        vid[0].pause();
+        vid.currentTime = 0;
+    }
+    stopVideo(video);*/
+
     document.getElementById(id).style.display = 'none';
     document.documentElement.classList.remove('.flex-item figure:hover');
 }
@@ -63,5 +71,4 @@ $(document).ready(function() {
         var height = $(window).height();
         console.log(width);
     });
-
 });

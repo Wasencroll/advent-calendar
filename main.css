@@ -82,8 +82,8 @@ body {
     @supports (display: grid) {
         .flex-container {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(calc(100% * (1 / 6) - 10px - 1px), 1fr));
-            grid-gap: 10px;
+            grid-template-columns: repeat(auto-fill, minmax(calc(100% * (1 / 4) - 30px - 1px), 1fr));
+            grid-gap: 30px;
         }
         .flex-container > * {
             padding: 0;
@@ -111,6 +111,7 @@ body {
     .flex-item door {
         font-size: 24px;
     }
+
     .header h1 {
         font-size: 36px;
     }
@@ -140,7 +141,7 @@ body {
 .flex-item door {
     display: flex;
     position: absolute;
-    color: red;
+    color: white;
     font-family: "Georgia";
     font-size: 50px;
     width: 100%;

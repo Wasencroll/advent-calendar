@@ -10,744 +10,742 @@
 </head>
 
 <body>
-
-<div class="wrapper">
-    <div class="header">
-        <h1>Advent Calendar 2018</h1>
-    </div>
-    <div class="flex-container">
-        <div class="flex-item" title="Dec 1">
-            <figure>
-                <door onclick="openDoor('modal1')">
-                    <p>1</p>
-                </door>
-                <div id="modal1" class="modal" data-toggle="modal">
-                    <div class="outer-wrapper">
-                        <div class="modal-container">
-                            <div class="modal-content-wrapper">
-                                <header class="modal-header">
-                                    <span onclick="callPlayer('video1', 'stopVideo', 'modal1')"
-                                        class="button display-topright">&times;</span>
-                                    <h2>December 1</h2>
-                                </header>
-                                <div class="modal-content">
-                                    <div class="iframe-wrapper">
-                                        <iframe id="video1"
-                                                src="https://www.youtube.com/embed/3KK6sMo8NBY?enablejsapi=1"
-                                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                                allowfullscreen>
-                                        </iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </figure>
+    <div class="wrapper">
+        <div class="header">
+            <h1>Advent Calendar 2018</h1>
         </div>
-        <div class="flex-item" title="Dec 11">
-            <figure>
-                <door onclick="openDoor('modal11')">
-                    <p>11</p>
-                </door>
-                <div id="modal11" class="modal" data-toggle="modal">
-                    <div class="outer-wrapper">
-                        <div class="modal-container">
-                            <div class="modal-content-wrapper">
-                                <header class="modal-header">
-                                    <span onclick="callPlayer('video11', 'stopVideo', 'modal11')"
-                                          class="button display-topright">&times;</span>
-                                    <h2>December 11</h2>
-                                </header>
-                                <div class="modal-content">
-                                    <div class="iframe-wrapper">
-                                        <iframe id="video11" src="https://www.youtube.com/embed/Mk_GmhD053E?enablejsapi=1"
-                                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                                allowfullscreen>
-                                        </iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </figure>
-        </div>
-        <div class="flex-item" title="Dec 17">
-            <figure>
-                <door onclick="openDoor('modal17')">
-                    <p>17</p>
-                </door>
-                <div id="modal17" class="modal" data-toggle="modal">
-                    <div class="outer-wrapper">
-                        <div class="modal-container">
-                            <div class="modal-content-wrapper">
-                                <header class="modal-header">
-                                    <span onclick="closeModal('modal17')"
-                                          class="button display-topright">&times;</span>
-                                    <h2>December 17</h2>
-                                </header>
-                                <div class="modal-content">
-                                    <h4>Weihnachten – was war das nur?</h4>
-                                    <p>
-                                        Zwischen Pfefferkuchen und Tannenzweigen,<br>
-                                        zwischen Kerzenduft und Keksglasur,<br>
-                                        wollte uns das Christkind doch noch was anderes zeigen –<br>
-                                        ich weiß jetzt nicht – was war es nur?<br>
-                                        Zwischen Wünschen und Geschenkebergen,<br>
-                                        zwischen Einkaufstress und Hektik pur,<br>
-                                        soll Friede es auf Erden werden?<br>
-                                        Ich weiß jetzt nicht – wie geht das nur?<br>
-                                        Einen Advent – erwartungsvoll -<br>
-                                        und ruhig, still und ungestresst,<br>
-                                        Weihnachten – wie es sein soll,<br>
-                                        das wünsch’ ich heuer Dir: Ein Frohes Fest!
-                                    </p>
-                                    <a href="https://weihnachtsgedichte.de/text/87/">&copy; weihnachtsgedichte.de</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </figure>
-        </div>
-        <div class="flex-item" title="Dec 22">
-            <figure>
-                <door onclick="openDoor('modal22')">
-                    <p>22</p>
-                </door>
-                <div id="modal22" class="modal" data-toggle="modal">
-                    <div class="outer-wrapper">
-                        <div class="modal-container">
-                            <div class="modal-content-wrapper">
-                                <header class="modal-header">
-                                    <span onclick="closeModal('modal22')"
-                                          class="button display-topright">&times;</span>
-                                    <h2>December 22</h2>
-                                </header>
-                                <div class="modal-content">
-                                    <img src="https://66.media.tumblr.com/c5a3555546acb24bc5def80e9f61f709/tumblr_nfwu0nS5E01s5b5tzo1_1280.jpg"
-                                         alt="A comic about present wrapping" width="100%">
-                                    <a href="http://floccinaucinihilipilificationa.tumblr.com/post/104077928947">
-                                        &copy; floccinaucinihilipilification</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </figure>
-        </div>
-        <div class="flex-item" title="Dec 24">
-            <figure>
-                <door onclick="openDoor('modal24')">
-                    <p>24</p>
-                </door>
-                <div id="modal24" class="modal" data-toggle="modal">
-                    <div class="outer-wrapper">
-                        <div class="modal-container">
-                            <div class="modal-content-wrapper">
-                                <header class="modal-header">
-                                    <span onclick="callPlayer('video24', 'stopVideo', 'modal24')"
-                                          class="button display-topright">&times;</span>
-                                    <h2>December 24</h2>
-                                </header>
-                                <div class="modal-content">
-                                    <div class="iframe-wrapper">
-                                        <iframe id="video24"
-                                                src="https://www.youtube.com/embed/PGcKZSCbMxE?enablejsapi=1"
-                                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                                allowfullscreen>
-                                        </iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </figure>
-        </div>
-        <div class="flex-item" title="Dec 2">
-            <figure>
-                <door onclick="openDoor('modal2')">
-                    <p>2</p>
-                </door>
-                <div id="modal2" class="modal" data-toggle="modal">
-                    <div class="outer-wrapper">
-                        <div class="modal-container">
-                            <div class="modal-content-wrapper">
-                                <header class="modal-header">
-                                    <span onclick="closeModal('modal2')"
-                                          class="button display-topright">&times;</span>
-                                <h2>December 2</h2>
-                            </header>
-                                <div class="modal-content">
-                                    <h4>Es ist Advent, die Welt in Stille</h4>
-                                    <p>
-                                        Hell erleuchtet sind die Fenster<br>
-                                        Haus und Hof sind zugeschneit<br>
-                                        Und ein Jeder fühlt im Herzen<br>
-                                        Ruhe und Besinnlichkeit<br><br>
-
-                                        Verlassen sind die Straßen heute<br>
-                                        Dunkel ragen Tannen auf<br>
-                                        Friedlich und von hellem Glanze<br>
-                                        Liegt pulverweißer Schnee darauf<br><br>
-
-                                        Aus den Häusern, aus den Stuben<br>
-                                        Hört man friedlichen Gesang<br>
-                                        Am Himmel strahlen, leuchten Sterne<br>
-                                        Zu weihnachtlichem, süßen Klang<br><br>
-
-                                        Es ist Advent, die Welt in Stille<br>
-                                        Es bleibt kein Platz für Traurigkeit<br>
-                                        Und ein Jeder fühlt im Herzen<br>
-                                        Freude und Behaglichkeit
-                                    </p>
-                                    <a href="http://www.weihnachtswuensche.com/schoene-adventsgedichte/">&copy; weihnachtswuensche.com</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </figure>
-        </div>
-        <div class="flex-item" title="Dec 12">
-            <figure>
-                <door onclick="openDoor('modal12')">
-                    <p>12</p>
-                </door>
-                <div id="modal12" class="modal" data-toggle="modal">
-                    <div class="outer-wrapper">
-                        <div class="modal-container">
-                            <div class="modal-content-wrapper">
-                                <header class="modal-header">
-                                    <span onclick="closeModal('modal12')"
-                                          class="button display-topright">&times;</span>
-                                    <h2>December 12</h2>
-                                </header>
-                                <div class="modal-content">
-                                    <div class="iframe-wrapper">
-                                        <iframe src="https://www.springlane.de/magazin/rezeptideen/plaetzchen-klassiker-weihnachten/"
-                                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                                allowfullscreen>
-                                        </iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </figure>
-        </div>
-        <div class="flex-item" title="Dec 3">
-            <figure>
-                <door onclick="openDoor('modal3')">
-                    <p>3</p>
-                </door>
-                <div id="modal3" class="modal" data-toggle="modal">
-                    <div class="outer-wrapper">
-                        <div class="modal-container">
-                            <div class="modal-content-wrapper">
-                                <header class="modal-header">
-                                    <span onclick="callPlayer('video3', 'stopVideo', 'modal3')"
-                                          class="button display-topright">&times;</span>
-                                <h2>December 3</h2>
-                            </header>
-                                <div class="modal-content">
-                                    <div class="iframe-wrapper">
-                                        <iframe id="video3" src="https://www.youtube.com/embed/waihuY4B3V8?enablejsapi=1"
-                                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                                allowfullscreen>
-                                        </iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </figure>
-        </div>
-        <div class="flex-item" title="Dec 15">
-            <figure>
-                <door onclick="openDoor('modal15')">
-                    <p>15</p>
-                </door>
-                <div id="modal15" class="modal" data-toggle="modal">
-                    <div class="outer-wrapper">
-                        <div class="modal-container">
-                            <div class="modal-content-wrapper">
-                                <header class="modal-header">
-                                    <span onclick="callPlayer('video15', 'stopVideo', 'modal15')"
-                                          class="button display-topright">&times;</span>
-                                    <h2>December 15</h2>
-                                </header>
-                                <div class="modal-content">
-                                    <div class="iframe-wrapper">
-                                        <iframe id="video15" src="https://www.youtube.com/embed/zLLcIu6TVbs?enablejsapi=1"
-                                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                                allowfullscreen>
-                                        </iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </figure>
-        </div>
-        <div class="flex-item" title="Dec 18">
-            <figure>
-                <door onclick="openDoor('modal18')">
-                    <p>18</p>
-                </door>
-                <div id="modal18" class="modal" data-toggle="modal">
-                    <div class="outer-wrapper">
-                        <div class="modal-container">
-                            <div class="modal-content-wrapper">
-                                <header class="modal-header">
-                                    <span onclick="closeModal('modal18')"
-                                          class="button display-topright">&times;</span>
-                                    <h2>December 18</h2>
-                                </header>
-                                <div class="modal-content">
-                                    <img src="https://blazepress.com/.image/c_limit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_700/MTQzNTc2NzIzOTk5NDMzODcw/funny-christmas-comics-13jpg.jpg"
-                                         alt="A comic about socks as christmas presents">
-                                    <a href="http://seasonaldepressioncomic.com">&copy; Maritsa Patrinos</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </figure>
-        </div>
-        <div class="flex-item" title="Dec 8">
-            <figure>
-                <door onclick="openDoor('modal8')">
-                    <p>8</p>
-                </door>
-                <div id="modal8" class="modal" data-toggle="modal">
-                    <div class="outer-wrapper">
-                        <div class="modal-container">
-                            <div class="modal-content-wrapper">
-                                <header class="modal-header">
-                                    <span onclick="callPlayer('video8', 'stopVideo', 'modal8')"
-                                          class="button display-topright">&times;</span>
-                                    <h2>December 8</h2>
-                                </header>
-                                <div class="modal-content">
-                                    <div class="iframe-wrapper">
-                                        <iframe id="video8" src="https://www.youtube.com/embed/yXQViqx6GMY?enablejsapi=1"
-                                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                                allowfullscreen>
-                                        </iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </figure>
-        </div>
-        <div class="flex-item" title="Dec 23">
-            <figure>
-                <door onclick="openDoor('modal23')">
-                    <p>23</p>
-                </door>
-                <div id="modal23" class="modal" data-toggle="modal">
-                    <div class="outer-wrapper">
-                        <div class="modal-container">
-                            <div class="modal-content-wrapper">
-                                <header class="modal-header">
-                                    <span onclick="closeModal('modal23')"
-                                          class="button display-topright">&times;</span>
-                                    <h2>December 23</h2>
-                                </header>
-                                <div class="modal-content">
-                                    <h4>Auf dem Weihnachtsmarkt</h4>
-                                    <p>
-                                        Ein Weihnachtsmarkt ist wunderschön,<br>
-                                        dort kannst du gut spazieren geh`n.<br>
-                                        Auf Tischen stehen viele Kerzen<br>
-                                        in Form von Sternen oder Herzen.<br>
-                                        Lebkuchenduft ist überall,<br>
-                                        von fern ertönt ein froher Schall.<br>
-                                        Die Bläser spielen schöne Lieder,<br>
-                                        Spatzen schütteln ihr Gefieder.<br>
-                                        Du kannst Geschenke hier entdecken<br>
-                                        und an der Zuckerwatte schlecken.<br>
-                                        Vom heißen Tee wird dir ganz warm,<br>
-                                        nach Hause geh`n wir Arm in Arm.
-                                    </p>
-                                    <a href="https://weihnachtsgedichte.de/text/53/">&copy; weihnachtsgedichte.de</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </figure>
-        </div>
-        <div class="flex-item" title="Dec 19">
-            <figure>
-                <door onclick="openDoor('modal19')">
-                    <p>19</p>
-                </door>
-                <div id="modal19" class="modal" data-toggle="modal">
-                    <div class="outer-wrapper">
-                        <div class="modal-container">
-                            <div class="modal-content-wrapper">
-                                <header class="modal-header">
-                                    <span onclick="callPlayer('video19', 'stopVideo', 'modal19')"
-                                          class="button display-topright">&times;</span>
-                                    <h2>December 19</h2>
-                                </header>
-                                <div class="modal-content">
-                                    <div class="iframe-wrapper">
-                                        <iframe id="video19" src="https://www.youtube.com/embed/l3l83C-we-k?enablejsapi=1"
-                                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                                allowfullscreen>
-                                        </iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </figure>
-        </div>
-        <div class="flex-item" title="Dec 4">
-            <figure>
-                <door onclick="openDoor('modal4')">
-                    <p>4</p>
-                </door>
-                <div id="modal4" class="modal" data-toggle="modal">
-                    <div class="outer-wrapper">
-                        <div class="modal-container">
-                            <div class="modal-content-wrapper">
-                                <header class="modal-header">
-                                    <span onclick="closeModal('modal4')"
-                                          class="button display-topright">&times;</span>
-                                    <h2>December 4</h2>
-                                </header>
-                                <div class="modal-content">
-                                    <img src="https://66.media.tumblr.com/0bb398230c7f9a9d210c1dc6929812e4/tumblr_oif2s1tBp01qlskmlo1_500.gif"
-                                         alt="A comic about people unwrapping christmas gifts">
-                                    <a href="http://seasonaldepressioncomic.com">
-                                        &copy; Maritsa Patrinos</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </figure>
-        </div>
-        <div class="flex-item" title="Dec 20">
-            <figure>
-                <door onclick="openDoor('modal20')">
-                    <p>20</p>
-                </door>
-                <div id="modal20" class="modal" data-toggle="modal">
-                    <div class="outer-wrapper">
-                        <div class="modal-container">
-                            <div class="modal-content-wrapper">
-                                <header class="modal-header">
-                                    <span onclick="closeModal('modal20')"
+        <div class="flex-container">
+            <div class="flex-item" title="Dec 1">
+                <figure>
+                    <door onclick="openDoor('modal1')">
+                        <p>1</p>
+                    </door>
+                    <div id="modal1" class="modal" data-toggle="modal">
+                        <div class="outer-wrapper">
+                            <div class="modal-container">
+                                <div class="modal-content-wrapper">
+                                    <header class="modal-header">
+                                        <span onclick="callPlayer('video1', 'stopVideo', 'modal1')"
                                             class="button display-topright">&times;</span>
-                                    <h2>December 20</h2>
-                                </header>
-                                <div class="modal-content">
-                                    <div class="iframe-wrapper">
-                                        <iframe src="//www.brigitte.de/rezepte/heissgetraenke--weihnachtlich-warm--gluehwein-und-seine-freunde--10119710.html"
-                                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope"
-                                                allowfullscreen>
-                                        </iframe>
+                                        <h2>December 1</h2>
+                                    </header>
+                                    <div class="modal-content">
+                                        <div class="iframe-wrapper">
+                                            <iframe id="video1"
+                                                    src="https://www.youtube.com/embed/3KK6sMo8NBY?enablejsapi=1"
+                                                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen>
+                                            </iframe>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </figure>
-        </div>
-        <div class="flex-item" title="Dec 9">
-            <figure>
-                <door onclick="openDoor('modal9')">
-                    <p>9</p>
-                </door>
-                <div id="modal9" class="modal" data-toggle="modal">
-                    <div class="outer-wrapper">
-                        <div class="modal-container">
-                            <div class="modal-content-wrapper">
-                                <header class="modal-header">
-                                    <span onclick="closeModal('modal9')"
-                                          class="button display-topright">&times;</span>
-                                    <h2>December 9</h2>
-                                </header>
-                                <div class="modal-content">
-                                    <h4>Schöne Adventszeit</h4>
-                                    <p>
-                                        Besinnlichkeit und Kerzenschein,<br>
-                                        Adventszeit könnte immer sein!<br>
-                                        Wo Menschenherzen off’ner sind,<br>
-                                        sich jeder freut so wie ein Kind.<br>
-                                        Wo wir des Nachbars Not auch seh’n,<br>
-                                        und vieles besser dann versteh’n.<br>
-                                        Ich wünsch‘ Advent mir jederzeit,<br>
-                                        viel Hoffnung, Mut und Heiterkeit!
-                                    </p>
-                                    <a href="http://www.weihnachtswuensche.com/kurze-adventsgedichte/">&copy; weihnachtswuensche.com</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </figure>
-        </div>
-        <div class="flex-item" title="Dec 21">
-            <figure>
-                <door onclick="openDoor('modal21')">
-                    <p>21</p>
-                </door>
-                <div id="modal21" class="modal" data-toggle="modal">
-                    <div class="outer-wrapper">
-                        <div class="modal-container">
-                            <div class="modal-content-wrapper">
-                                <header class="modal-header">
-                                    <span onclick="callPlayer('video21', 'stopVideo', 'modal21')"
-                                          class="button display-topright">&times;</span>
-                                    <h2>December 21</h2>
-                                </header>
-                                <div class="modal-content">
-                                    <div class="iframe-wrapper">
-                                        <iframe id="video21" src="https://www.youtube.com/embed/WzYWsxpmTRg?enablejsapi=1"
-                                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                                allowfullscreen>
-                                        </iframe>
+                </figure>
+            </div>
+            <div class="flex-item" title="Dec 11">
+                <figure>
+                    <door onclick="openDoor('modal11')">
+                        <p>11</p>
+                    </door>
+                    <div id="modal11" class="modal" data-toggle="modal">
+                        <div class="outer-wrapper">
+                            <div class="modal-container">
+                                <div class="modal-content-wrapper">
+                                    <header class="modal-header">
+                                        <span onclick="callPlayer('video11', 'stopVideo', 'modal11')"
+                                              class="button display-topright">&times;</span>
+                                        <h2>December 11</h2>
+                                    </header>
+                                    <div class="modal-content">
+                                        <div class="iframe-wrapper">
+                                            <iframe id="video11" src="https://www.youtube.com/embed/Mk_GmhD053E?enablejsapi=1"
+                                                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen>
+                                            </iframe>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </figure>
-        </div>
-        <div class="flex-item" title="Dec 5">
-            <figure>
-                <door onclick="openDoor('modal5')">
-                    <p>5</p>
-                </door>
-                <div id="modal5" class="modal" data-toggle="modal">
-                    <div class="outer-wrapper">
-                        <div class="modal-container">
-                            <div class="modal-content-wrapper">
-                                <header class="modal-header">
-                                    <span onclick="closeModal('modal5')"
-                                          class="button display-topright">&times;</span>
-                                    <h2>December 5</h2>
-                                </header>
-                                <div class="modal-content">
-                                    <h4>Vertretung für den Nikolaus</h4>
-                                    <p>
-                                        Es kam zu mir der Osterhase <br>
-                                        mit einer schlimm verschnupften Nase<br>
-                                        und wenn man´s auch kaum glauben kann<br>
-                                        er hatte schwarze Stiefel an<br>
-                                        ´ne rote Jacke trug er auch<br>
-                                        über seinem dicken Bauch<br>
-                                        was ist geschehen, was ist passiert?<br>
-                                        fragte ich ihn ganz verwirrt<br>
-                                        hab´ mit dem Nikolaus gesprochen<br>
-                                        er hat sich ein Bein gebrochen!<br>
-                                        nun muss ich ihn heut´ vertreten<br>
-                                        er hat mich darum gebeten<br>
-                                        so wenn du heute Nacht entdeckst<br>
-                                        dass dem Nikolaus ein Schwänzlein wächst<br>
-                                        dass er hoppelt und nicht geht<br>
-                                        auf Möhren statt Kakao besteht<br>
-                                        dann ist es nicht der Nikolaus<br>
-                                        der Osterhase hilft ihm aus
-                                    </p>
-                                    <a href="http://www.weihnachtswuensche.com/nikolausgedichte-zum-lachen/">&copy; weihnachtswuensche.com</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </figure>
-        </div>
-        <div class="flex-item" title="Dec 16">
-            <figure>
-                <door onclick="openDoor('modal16')">
-                    <p>16</p>
-                </door>
-                <div id="modal16" class="modal" data-toggle="modal">
-                    <div class="outer-wrapper">
-                        <div class="modal-container">
-                            <div class="modal-content-wrapper">
-                                <header class="modal-header">
-                                    <span onclick="callPlayer('video16', 'stopVideo', 'modal16')"
-                                          class="button display-topright">&times;</span>
-                                    <h2>December 16</h2>
-                                </header>
-                                <div class="modal-content">
-                                    <div class="iframe-wrapper">
-                                        <iframe id="video16" src="https://www.youtube.com/embed/v1SwcR5Vwis?enablejsapi=1"
-                                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                                allowfullscreen>
-                                        </iframe>
+                </figure>
+            </div>
+            <div class="flex-item" title="Dec 17">
+                <figure>
+                    <door onclick="openDoor('modal17')">
+                        <p>17</p>
+                    </door>
+                    <div id="modal17" class="modal" data-toggle="modal">
+                        <div class="outer-wrapper">
+                            <div class="modal-container">
+                                <div class="modal-content-wrapper">
+                                    <header class="modal-header">
+                                        <span onclick="closeModal('modal17')"
+                                              class="button display-topright">&times;</span>
+                                        <h2>December 17</h2>
+                                    </header>
+                                    <div class="modal-content">
+                                        <h4>Weihnachten – was war das nur?</h4>
+                                        <p>
+                                            Zwischen Pfefferkuchen und Tannenzweigen,<br>
+                                            zwischen Kerzenduft und Keksglasur,<br>
+                                            wollte uns das Christkind doch noch was anderes zeigen –<br>
+                                            ich weiß jetzt nicht – was war es nur?<br>
+                                            Zwischen Wünschen und Geschenkebergen,<br>
+                                            zwischen Einkaufstress und Hektik pur,<br>
+                                            soll Friede es auf Erden werden?<br>
+                                            Ich weiß jetzt nicht – wie geht das nur?<br>
+                                            Einen Advent – erwartungsvoll -<br>
+                                            und ruhig, still und ungestresst,<br>
+                                            Weihnachten – wie es sein soll,<br>
+                                            das wünsch’ ich heuer Dir: Ein Frohes Fest!
+                                        </p>
+                                        <a href="https://weihnachtsgedichte.de/text/87/">&copy; weihnachtsgedichte.de</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </figure>
-        </div>
-        <div class="flex-item" title="Dec 14">
-            <figure>
-                <door onclick="openDoor('modal14')">
-                    <p>14</p>
-                </door>
-                <div id="modal14" class="modal" data-toggle="modal">
-                    <div class="outer-wrapper">
-                        <div class="modal-container">
-                            <div class="modal-content-wrapper">
-                                <header class="modal-header">
-                                    <span onclick="closeModal('modal14')"
-                                          class="button display-topright">&times;</span>
-                                    <h2>December 14</h2>
-                                </header>
-                                <div class="modal-content">
-                                    <img src="https://blazepress.com/.image/c_limit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_880/MTMxMjM3NzI3MjE5MDE5NzQ2/cute-everyday-animal-problems-illustrated-10jpg.jpg"
-                                         alt="A comic about penguins">
-                                    <a href="http://lizclimo.tumblr.com">&copy; Liz Climo</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </figure>
-        </div>
-        <div class="flex-item" title="Dec 6">
-            <figure>
-                <door onclick="openDoor('modal6')">
-                    <p>6</p>
-                </door>
-                <div id="modal6" class="modal" data-toggle="modal">
-                    <div class="outer-wrapper">
-                        <div class="modal-container">
-                            <div class="modal-content-wrapper">
-                                <header class="modal-header">
-                                    <span onclick="callPlayer('video6', 'stopVideo', 'modal6')"
-                                          class="button display-topright">&times;</span>
-                                    <h2>December 6</h2>
-                                </header>
-                                <div class="modal-content">
-                                    <div class="iframe-wrapper">
-                                        <iframe id="video6" src="https://www.youtube.com/embed/k2nr6KGoHO4?enablejsapi=1"
-                                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                                allowfullscreen>
-                                        </iframe>
+                </figure>
+            </div>
+            <div class="flex-item" title="Dec 22">
+                <figure>
+                    <door onclick="openDoor('modal22')">
+                        <p>22</p>
+                    </door>
+                    <div id="modal22" class="modal" data-toggle="modal">
+                        <div class="outer-wrapper">
+                            <div class="modal-container">
+                                <div class="modal-content-wrapper">
+                                    <header class="modal-header">
+                                        <span onclick="closeModal('modal22')"
+                                              class="button display-topright">&times;</span>
+                                        <h2>December 22</h2>
+                                    </header>
+                                    <div class="modal-content">
+                                        <img src="https://66.media.tumblr.com/c5a3555546acb24bc5def80e9f61f709/tumblr_nfwu0nS5E01s5b5tzo1_1280.jpg"
+                                             alt="A comic about present wrapping" width="100%">
+                                        <a href="http://floccinaucinihilipilificationa.tumblr.com/post/104077928947">
+                                            &copy; floccinaucinihilipilification</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </figure>
-        </div>
-        <div class="flex-item" title="Dec 13">
-            <figure>
-                <door onclick="openDoor('modal13')">
-                    <p>13</p>
-                </door>
-                <div id="modal13" class="modal" data-toggle="modal">
-                    <div class="outer-wrapper">
-                        <div class="modal-container">
-                            <div class="modal-content-wrapper">
-                                <header class="modal-header">
-                                    <span onclick="callPlayer('video13', 'stopVideo', 'modal13')"
-                                          class="button display-topright">&times;</span>
-                                    <h2>December 13</h2>
-                                </header>
-                                <div class="modal-content">
-                                    <div class="iframe-wrapper">
-                                        <iframe id="video13" src="https://www.youtube.com/embed/CbjxifMCNeg?enablejsapi=1"
-                                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                                allowfullscreen>
-                                        </iframe>
+                </figure>
+            </div>
+            <div class="flex-item" title="Dec 24">
+                <figure>
+                    <door onclick="openDoor('modal24')">
+                        <p>24</p>
+                    </door>
+                    <div id="modal24" class="modal" data-toggle="modal">
+                        <div class="outer-wrapper">
+                            <div class="modal-container">
+                                <div class="modal-content-wrapper">
+                                    <header class="modal-header">
+                                        <span onclick="callPlayer('video24', 'stopVideo', 'modal24')"
+                                              class="button display-topright">&times;</span>
+                                        <h2>December 24</h2>
+                                    </header>
+                                    <div class="modal-content">
+                                        <div class="iframe-wrapper">
+                                            <iframe id="video24"
+                                                    src="https://www.youtube.com/embed/PGcKZSCbMxE?enablejsapi=1"
+                                                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen>
+                                            </iframe>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </figure>
-        </div>
-        <div class="flex-item" title="Dec 10">
-            <figure>
-                <door onclick="openDoor('modal10')">
-                    <p>10</p>
-                </door>
-                <div id="modal10" class="modal" data-toggle="modal">
-                    <div class="outer-wrapper">
-                        <div class="modal-container">
-                            <div class="modal-content-wrapper">
-                                <header class="modal-header">
-                                    <span onclick="closeModal('modal10')"
-                                          class="button display-topright">&times;</span>
-                                    <h2>December 10</h2>
+                </figure>
+            </div>
+            <div class="flex-item" title="Dec 2">
+                <figure>
+                    <door onclick="openDoor('modal2')">
+                        <p>2</p>
+                    </door>
+                    <div id="modal2" class="modal" data-toggle="modal">
+                        <div class="outer-wrapper">
+                            <div class="modal-container">
+                                <div class="modal-content-wrapper">
+                                    <header class="modal-header">
+                                        <span onclick="closeModal('modal2')"
+                                              class="button display-topright">&times;</span>
+                                    <h2>December 2</h2>
                                 </header>
-                                <div class="modal-content">
-                                    <img src="https://blazepress.com/.image/c_limit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_700/MTQzNTc2NzIzOTk5NjMwNDc5/funny-christmas-comics-12jpg.jpg"
-                                         alt="A comic about socks as christmas presents">
-                                    <a href="http://lizclimo.tumblr.com">&copy; Liz Climo</a>
+                                    <div class="modal-content">
+                                        <h4>Es ist Advent, die Welt in Stille</h4>
+                                        <p>
+                                            Hell erleuchtet sind die Fenster<br>
+                                            Haus und Hof sind zugeschneit<br>
+                                            Und ein Jeder fühlt im Herzen<br>
+                                            Ruhe und Besinnlichkeit<br><br>
+
+                                            Verlassen sind die Straßen heute<br>
+                                            Dunkel ragen Tannen auf<br>
+                                            Friedlich und von hellem Glanze<br>
+                                            Liegt pulverweißer Schnee darauf<br><br>
+
+                                            Aus den Häusern, aus den Stuben<br>
+                                            Hört man friedlichen Gesang<br>
+                                            Am Himmel strahlen, leuchten Sterne<br>
+                                            Zu weihnachtlichem, süßen Klang<br><br>
+
+                                            Es ist Advent, die Welt in Stille<br>
+                                            Es bleibt kein Platz für Traurigkeit<br>
+                                            Und ein Jeder fühlt im Herzen<br>
+                                            Freude und Behaglichkeit
+                                        </p>
+                                        <a href="http://www.weihnachtswuensche.com/schoene-adventsgedichte/">&copy; weihnachtswuensche.com</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </figure>
-        </div>
-        <div class="flex-item" title="Dec 7">
-            <figure>
-                <door onclick="openDoor('modal7')">
-                    <p>7</p>
-                </door>
-                <div id="modal7" class="modal" data-toggle="modal">
-                    <div class="outer-wrapper">
-                        <div class="modal-container">
-                            <div class="modal-content-wrapper">
-                                <header class="modal-header">
-                                    <span onclick="closeModal('modal7')"
-                                          class="button display-topright">&times;</span>
-                                    <h2>December 7</h2>
-                                </header>
-                                <div class="modal-content">
-                                    <h4>Winternacht</h4>
-                                    <p>
-                                        Draußen ist es dunkel,<br>
-                                        Sterne leuchten hell.<br>
-                                        Ich schaue aus dem Fenster,<br>
-                                        die Autos fahren schnell.<br>
-                                        Und doch ist so viel Ruhe<br>
-                                        in dieser Sternennacht.<br>
-                                        Der Schnee liegt auf den Bäumen,<br>
-                                        die Flocken fallen sacht.<br>
-                                        Gedanken wollen wandern,<br>
-                                        sie ziehen hin zu dir.<br>
-                                        Ich denk`an dich und wünschte,<br>
-                                        du wärst jetzt hier bei mir.
-                                    </p>
-                                    <a href="https://weihnachtsgedichte.de/text/56/">&copy; weihnachtsgedichte.de</a>
+                </figure>
+            </div>
+            <div class="flex-item" title="Dec 12">
+                <figure>
+                    <door onclick="openDoor('modal12')">
+                        <p>12</p>
+                    </door>
+                    <div id="modal12" class="modal" data-toggle="modal">
+                        <div class="outer-wrapper">
+                            <div class="modal-container">
+                                <div class="modal-content-wrapper">
+                                    <header class="modal-header">
+                                        <span onclick="closeModal('modal12')"
+                                              class="button display-topright">&times;</span>
+                                        <h2>December 12</h2>
+                                    </header>
+                                    <div class="modal-content">
+                                        <div class="iframe-wrapper">
+                                            <iframe src="https://www.springlane.de/magazin/rezeptideen/plaetzchen-klassiker-weihnachten/"
+                                                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen>
+                                            </iframe>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </figure>
+                </figure>
+            </div>
+            <div class="flex-item" title="Dec 3">
+                <figure>
+                    <door onclick="openDoor('modal3')">
+                        <p>3</p>
+                    </door>
+                    <div id="modal3" class="modal" data-toggle="modal">
+                        <div class="outer-wrapper">
+                            <div class="modal-container">
+                                <div class="modal-content-wrapper">
+                                    <header class="modal-header">
+                                        <span onclick="callPlayer('video3', 'stopVideo', 'modal3')"
+                                              class="button display-topright">&times;</span>
+                                    <h2>December 3</h2>
+                                </header>
+                                    <div class="modal-content">
+                                        <div class="iframe-wrapper">
+                                            <iframe id="video3" src="https://www.youtube.com/embed/waihuY4B3V8?enablejsapi=1"
+                                                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen>
+                                            </iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <div class="flex-item" title="Dec 15">
+                <figure>
+                    <door onclick="openDoor('modal15')">
+                        <p>15</p>
+                    </door>
+                    <div id="modal15" class="modal" data-toggle="modal">
+                        <div class="outer-wrapper">
+                            <div class="modal-container">
+                                <div class="modal-content-wrapper">
+                                    <header class="modal-header">
+                                        <span onclick="callPlayer('video15', 'stopVideo', 'modal15')"
+                                              class="button display-topright">&times;</span>
+                                        <h2>December 15</h2>
+                                    </header>
+                                    <div class="modal-content">
+                                        <div class="iframe-wrapper">
+                                            <iframe id="video15" src="https://www.youtube.com/embed/zLLcIu6TVbs?enablejsapi=1"
+                                                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen>
+                                            </iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <div class="flex-item" title="Dec 18">
+                <figure>
+                    <door onclick="openDoor('modal18')">
+                        <p>18</p>
+                    </door>
+                    <div id="modal18" class="modal" data-toggle="modal">
+                        <div class="outer-wrapper">
+                            <div class="modal-container">
+                                <div class="modal-content-wrapper">
+                                    <header class="modal-header">
+                                        <span onclick="closeModal('modal18')"
+                                              class="button display-topright">&times;</span>
+                                        <h2>December 18</h2>
+                                    </header>
+                                    <div class="modal-content">
+                                        <img src="https://blazepress.com/.image/c_limit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_700/MTQzNTc2NzIzOTk5NDMzODcw/funny-christmas-comics-13jpg.jpg"
+                                             alt="A comic about socks as christmas presents">
+                                        <a href="http://seasonaldepressioncomic.com">&copy; Maritsa Patrinos</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <div class="flex-item" title="Dec 8">
+                <figure>
+                    <door onclick="openDoor('modal8')">
+                        <p>8</p>
+                    </door>
+                    <div id="modal8" class="modal" data-toggle="modal">
+                        <div class="outer-wrapper">
+                            <div class="modal-container">
+                                <div class="modal-content-wrapper">
+                                    <header class="modal-header">
+                                        <span onclick="callPlayer('video8', 'stopVideo', 'modal8')"
+                                              class="button display-topright">&times;</span>
+                                        <h2>December 8</h2>
+                                    </header>
+                                    <div class="modal-content">
+                                        <div class="iframe-wrapper">
+                                            <iframe id="video8" src="https://www.youtube.com/embed/yXQViqx6GMY?enablejsapi=1"
+                                                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen>
+                                            </iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <div class="flex-item" title="Dec 23">
+                <figure>
+                    <door onclick="openDoor('modal23')">
+                        <p>23</p>
+                    </door>
+                    <div id="modal23" class="modal" data-toggle="modal">
+                        <div class="outer-wrapper">
+                            <div class="modal-container">
+                                <div class="modal-content-wrapper">
+                                    <header class="modal-header">
+                                        <span onclick="closeModal('modal23')"
+                                              class="button display-topright">&times;</span>
+                                        <h2>December 23</h2>
+                                    </header>
+                                    <div class="modal-content">
+                                        <h4>Auf dem Weihnachtsmarkt</h4>
+                                        <p>
+                                            Ein Weihnachtsmarkt ist wunderschön,<br>
+                                            dort kannst du gut spazieren geh`n.<br>
+                                            Auf Tischen stehen viele Kerzen<br>
+                                            in Form von Sternen oder Herzen.<br>
+                                            Lebkuchenduft ist überall,<br>
+                                            von fern ertönt ein froher Schall.<br>
+                                            Die Bläser spielen schöne Lieder,<br>
+                                            Spatzen schütteln ihr Gefieder.<br>
+                                            Du kannst Geschenke hier entdecken<br>
+                                            und an der Zuckerwatte schlecken.<br>
+                                            Vom heißen Tee wird dir ganz warm,<br>
+                                            nach Hause geh`n wir Arm in Arm.
+                                        </p>
+                                        <a href="https://weihnachtsgedichte.de/text/53/">&copy; weihnachtsgedichte.de</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <div class="flex-item" title="Dec 19">
+                <figure>
+                    <door onclick="openDoor('modal19')">
+                        <p>19</p>
+                    </door>
+                    <div id="modal19" class="modal" data-toggle="modal">
+                        <div class="outer-wrapper">
+                            <div class="modal-container">
+                                <div class="modal-content-wrapper">
+                                    <header class="modal-header">
+                                        <span onclick="callPlayer('video19', 'stopVideo', 'modal19')"
+                                              class="button display-topright">&times;</span>
+                                        <h2>December 19</h2>
+                                    </header>
+                                    <div class="modal-content">
+                                        <div class="iframe-wrapper">
+                                            <iframe id="video19" src="https://www.youtube.com/embed/l3l83C-we-k?enablejsapi=1"
+                                                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen>
+                                            </iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <div class="flex-item" title="Dec 4">
+                <figure>
+                    <door onclick="openDoor('modal4')">
+                        <p>4</p>
+                    </door>
+                    <div id="modal4" class="modal" data-toggle="modal">
+                        <div class="outer-wrapper">
+                            <div class="modal-container">
+                                <div class="modal-content-wrapper">
+                                    <header class="modal-header">
+                                        <span onclick="closeModal('modal4')"
+                                              class="button display-topright">&times;</span>
+                                        <h2>December 4</h2>
+                                    </header>
+                                    <div class="modal-content">
+                                        <img src="https://66.media.tumblr.com/0bb398230c7f9a9d210c1dc6929812e4/tumblr_oif2s1tBp01qlskmlo1_500.gif"
+                                             alt="A comic about people unwrapping christmas gifts">
+                                        <a href="http://seasonaldepressioncomic.com">
+                                            &copy; Maritsa Patrinos</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <div class="flex-item" title="Dec 20">
+                <figure>
+                    <door onclick="openDoor('modal20')">
+                        <p>20</p>
+                    </door>
+                    <div id="modal20" class="modal" data-toggle="modal">
+                        <div class="outer-wrapper">
+                            <div class="modal-container">
+                                <div class="modal-content-wrapper">
+                                    <header class="modal-header">
+                                        <span onclick="closeModal('modal20')"
+                                                class="button display-topright">&times;</span>
+                                        <h2>December 20</h2>
+                                    </header>
+                                    <div class="modal-content">
+                                        <div class="iframe-wrapper">
+                                            <iframe src="//www.brigitte.de/rezepte/heissgetraenke--weihnachtlich-warm--gluehwein-und-seine-freunde--10119710.html"
+                                                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope"
+                                                    allowfullscreen>
+                                            </iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <div class="flex-item" title="Dec 9">
+                <figure>
+                    <door onclick="openDoor('modal9')">
+                        <p>9</p>
+                    </door>
+                    <div id="modal9" class="modal" data-toggle="modal">
+                        <div class="outer-wrapper">
+                            <div class="modal-container">
+                                <div class="modal-content-wrapper">
+                                    <header class="modal-header">
+                                        <span onclick="closeModal('modal9')"
+                                              class="button display-topright">&times;</span>
+                                        <h2>December 9</h2>
+                                    </header>
+                                    <div class="modal-content">
+                                        <h4>Schöne Adventszeit</h4>
+                                        <p>
+                                            Besinnlichkeit und Kerzenschein,<br>
+                                            Adventszeit könnte immer sein!<br>
+                                            Wo Menschenherzen off’ner sind,<br>
+                                            sich jeder freut so wie ein Kind.<br>
+                                            Wo wir des Nachbars Not auch seh’n,<br>
+                                            und vieles besser dann versteh’n.<br>
+                                            Ich wünsch‘ Advent mir jederzeit,<br>
+                                            viel Hoffnung, Mut und Heiterkeit!
+                                        </p>
+                                        <a href="http://www.weihnachtswuensche.com/kurze-adventsgedichte/">&copy; weihnachtswuensche.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <div class="flex-item" title="Dec 21">
+                <figure>
+                    <door onclick="openDoor('modal21')">
+                        <p>21</p>
+                    </door>
+                    <div id="modal21" class="modal" data-toggle="modal">
+                        <div class="outer-wrapper">
+                            <div class="modal-container">
+                                <div class="modal-content-wrapper">
+                                    <header class="modal-header">
+                                        <span onclick="callPlayer('video21', 'stopVideo', 'modal21')"
+                                              class="button display-topright">&times;</span>
+                                        <h2>December 21</h2>
+                                    </header>
+                                    <div class="modal-content">
+                                        <div class="iframe-wrapper">
+                                            <iframe id="video21" src="https://www.youtube.com/embed/WzYWsxpmTRg?enablejsapi=1"
+                                                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen>
+                                            </iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <div class="flex-item" title="Dec 5">
+                <figure>
+                    <door onclick="openDoor('modal5')">
+                        <p>5</p>
+                    </door>
+                    <div id="modal5" class="modal" data-toggle="modal">
+                        <div class="outer-wrapper">
+                            <div class="modal-container">
+                                <div class="modal-content-wrapper">
+                                    <header class="modal-header">
+                                        <span onclick="closeModal('modal5')"
+                                              class="button display-topright">&times;</span>
+                                        <h2>December 5</h2>
+                                    </header>
+                                    <div class="modal-content">
+                                        <h4>Vertretung für den Nikolaus</h4>
+                                        <p>
+                                            Es kam zu mir der Osterhase <br>
+                                            mit einer schlimm verschnupften Nase<br>
+                                            und wenn man´s auch kaum glauben kann<br>
+                                            er hatte schwarze Stiefel an<br>
+                                            ´ne rote Jacke trug er auch<br>
+                                            über seinem dicken Bauch<br>
+                                            was ist geschehen, was ist passiert?<br>
+                                            fragte ich ihn ganz verwirrt<br>
+                                            hab´ mit dem Nikolaus gesprochen<br>
+                                            er hat sich ein Bein gebrochen!<br>
+                                            nun muss ich ihn heut´ vertreten<br>
+                                            er hat mich darum gebeten<br>
+                                            so wenn du heute Nacht entdeckst<br>
+                                            dass dem Nikolaus ein Schwänzlein wächst<br>
+                                            dass er hoppelt und nicht geht<br>
+                                            auf Möhren statt Kakao besteht<br>
+                                            dann ist es nicht der Nikolaus<br>
+                                            der Osterhase hilft ihm aus
+                                        </p>
+                                        <a href="http://www.weihnachtswuensche.com/nikolausgedichte-zum-lachen/">&copy; weihnachtswuensche.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <div class="flex-item" title="Dec 16">
+                <figure>
+                    <door onclick="openDoor('modal16')">
+                        <p>16</p>
+                    </door>
+                    <div id="modal16" class="modal" data-toggle="modal">
+                        <div class="outer-wrapper">
+                            <div class="modal-container">
+                                <div class="modal-content-wrapper">
+                                    <header class="modal-header">
+                                        <span onclick="callPlayer('video16', 'stopVideo', 'modal16')"
+                                              class="button display-topright">&times;</span>
+                                        <h2>December 16</h2>
+                                    </header>
+                                    <div class="modal-content">
+                                        <div class="iframe-wrapper">
+                                            <iframe id="video16" src="https://www.youtube.com/embed/v1SwcR5Vwis?enablejsapi=1"
+                                                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen>
+                                            </iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <div class="flex-item" title="Dec 14">
+                <figure>
+                    <door onclick="openDoor('modal14')">
+                        <p>14</p>
+                    </door>
+                    <div id="modal14" class="modal" data-toggle="modal">
+                        <div class="outer-wrapper">
+                            <div class="modal-container">
+                                <div class="modal-content-wrapper">
+                                    <header class="modal-header">
+                                        <span onclick="closeModal('modal14')"
+                                              class="button display-topright">&times;</span>
+                                        <h2>December 14</h2>
+                                    </header>
+                                    <div class="modal-content">
+                                        <img src="https://blazepress.com/.image/c_limit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_880/MTMxMjM3NzI3MjE5MDE5NzQ2/cute-everyday-animal-problems-illustrated-10jpg.jpg"
+                                             alt="A comic about penguins">
+                                        <a href="http://lizclimo.tumblr.com">&copy; Liz Climo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <div class="flex-item" title="Dec 6">
+                <figure>
+                    <door onclick="openDoor('modal6')">
+                        <p>6</p>
+                    </door>
+                    <div id="modal6" class="modal" data-toggle="modal">
+                        <div class="outer-wrapper">
+                            <div class="modal-container">
+                                <div class="modal-content-wrapper">
+                                    <header class="modal-header">
+                                        <span onclick="callPlayer('video6', 'stopVideo', 'modal6')"
+                                              class="button display-topright">&times;</span>
+                                        <h2>December 6</h2>
+                                    </header>
+                                    <div class="modal-content">
+                                        <div class="iframe-wrapper">
+                                            <iframe id="video6" src="https://www.youtube.com/embed/k2nr6KGoHO4?enablejsapi=1"
+                                                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen>
+                                            </iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <div class="flex-item" title="Dec 13">
+                <figure>
+                    <door onclick="openDoor('modal13')">
+                        <p>13</p>
+                    </door>
+                    <div id="modal13" class="modal" data-toggle="modal">
+                        <div class="outer-wrapper">
+                            <div class="modal-container">
+                                <div class="modal-content-wrapper">
+                                    <header class="modal-header">
+                                        <span onclick="callPlayer('video13', 'stopVideo', 'modal13')"
+                                              class="button display-topright">&times;</span>
+                                        <h2>December 13</h2>
+                                    </header>
+                                    <div class="modal-content">
+                                        <div class="iframe-wrapper">
+                                            <iframe id="video13" src="https://www.youtube.com/embed/CbjxifMCNeg?enablejsapi=1"
+                                                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen>
+                                            </iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <div class="flex-item" title="Dec 10">
+                <figure>
+                    <door onclick="openDoor('modal10')">
+                        <p>10</p>
+                    </door>
+                    <div id="modal10" class="modal" data-toggle="modal">
+                        <div class="outer-wrapper">
+                            <div class="modal-container">
+                                <div class="modal-content-wrapper">
+                                    <header class="modal-header">
+                                        <span onclick="closeModal('modal10')"
+                                              class="button display-topright">&times;</span>
+                                        <h2>December 10</h2>
+                                    </header>
+                                    <div class="modal-content">
+                                        <img src="https://blazepress.com/.image/c_limit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_700/MTQzNTc2NzIzOTk5NjMwNDc5/funny-christmas-comics-12jpg.jpg"
+                                             alt="A comic about socks as christmas presents">
+                                        <a href="http://lizclimo.tumblr.com">&copy; Liz Climo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <div class="flex-item" title="Dec 7">
+                <figure>
+                    <door onclick="openDoor('modal7')">
+                        <p>7</p>
+                    </door>
+                    <div id="modal7" class="modal" data-toggle="modal">
+                        <div class="outer-wrapper">
+                            <div class="modal-container">
+                                <div class="modal-content-wrapper">
+                                    <header class="modal-header">
+                                        <span onclick="closeModal('modal7')"
+                                              class="button display-topright">&times;</span>
+                                        <h2>December 7</h2>
+                                    </header>
+                                    <div class="modal-content">
+                                        <h4>Winternacht</h4>
+                                        <p>
+                                            Draußen ist es dunkel,<br>
+                                            Sterne leuchten hell.<br>
+                                            Ich schaue aus dem Fenster,<br>
+                                            die Autos fahren schnell.<br>
+                                            Und doch ist so viel Ruhe<br>
+                                            in dieser Sternennacht.<br>
+                                            Der Schnee liegt auf den Bäumen,<br>
+                                            die Flocken fallen sacht.<br>
+                                            Gedanken wollen wandern,<br>
+                                            sie ziehen hin zu dir.<br>
+                                            Ich denk`an dich und wünschte,<br>
+                                            du wärst jetzt hier bei mir.
+                                        </p>
+                                        <a href="https://weihnachtsgedichte.de/text/56/">&copy; weihnachtsgedichte.de</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
         </div>
     </div>
-</div>
-
 </body>
 </html>

@@ -38,28 +38,20 @@ function openDoor (id) {
     yyyy = today.getFullYear();
 
     if (yyyy == 2018) {
-        //if (mm == 12) {
-            //if (dd == door) {
+        if (mm == 12) {
+            if (dd == door) {
         document.getElementById(id).style.display = 'block';
     }
     else {
         alert("You can't open this door just yet...");
     }
-        //}
-    //}
-    //else if (yyyy > 2018) {
-      //  document.getElementById(id).style.display = 'block';
-    //}
+        }
+    }
+    else if (yyyy > 2018) {
+        document.getElementById(id).style.display = 'block';
+    }
 }
 
 function closeModal (id) {
     document.getElementById(id).style.display = 'none';
 }
-
-$(document).ready(function() {
-    $(window).resize(function() {
-        var width = $(window).width();
-        var height = $(window).height();
-        console.log(width);
-    });
-});

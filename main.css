@@ -78,7 +78,7 @@ body {
     }
 }
 
-@media screen and (max-width: 480px) and (max-device-width: 480px) {
+@media (max-width: 480px) {
     @supports (display: grid) {
         .flex-container {
             display: grid;
@@ -94,7 +94,7 @@ body {
         margin: auto auto;
         position: relative;
         outline: 0;
-        width: 80%;
+        width: 80% !important;
         max-width: 90%;
         max-height: calc(100vh - 20px);
         height: 80%;

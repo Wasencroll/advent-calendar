@@ -37,7 +37,7 @@ function openDoor (id) {
     mm = today.getMonth()+1;
     yyyy = today.getFullYear();
 
-    if (yyyy == 2018) {
+    /*if (yyyy == 2018) {
         if (mm == 12) {
             if (dd >= door) {
                 document.getElementById(id).style.display = 'block';
@@ -47,9 +47,9 @@ function openDoor (id) {
             }
         }
     }
-    else if (yyyy > 2018) {
+    else if (yyyy > 2018) {*/
         document.getElementById(id).style.display = 'block';
-    }
+    //}
 }
 
 function closeModal (id) {

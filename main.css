@@ -78,7 +78,7 @@ body {
     }
 }
 
-@media (max-width: 480px) and (orientation: portrait) {
+@media (max-device-width: 480px) and (orientation: portrait) {
     @supports (display: grid) {
         .flex-container {
             display: grid;

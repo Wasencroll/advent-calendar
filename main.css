@@ -453,9 +453,16 @@ body {
 .iframe-wrapper {
     position: absolute;
     display: block;
-    overflow: hidden;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
     padding-top: 56.25% !important;
     width: 100%;
+}
+
+.iframe-website {
+    width: 1px;
+    min-width: 100%;
+    *width: 100%;
 }
 
 .modal-content iframe {
@@ -470,6 +477,7 @@ body {
     text-align: center;
     justify-content: center;
     overflow: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 .modal-content embed {

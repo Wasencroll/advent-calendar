@@ -39,12 +39,12 @@ function openDoor (id) {
 
     if (yyyy == 2018) {
         if (mm == 12) {
-            if (dd == door) {
-        document.getElementById(id).style.display = 'block';
-    }
-    else {
-        alert("You can't open this door just yet...");
-    }
+            if (dd >= door) {
+                document.getElementById(id).style.display = 'block';
+            }
+            else {
+                alert("You can't open this door just yet...");
+            }
         }
     }
     else if (yyyy > 2018) {

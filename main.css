@@ -23,7 +23,7 @@ body {
 
 .header {
     width: 100%;
-    margin-top: 3%;
+    margin-top: 7%;
     color: white;
 }
 
@@ -78,6 +78,7 @@ body {
     }
 }
 
+/** Responsive CSS for MOBILE PHONE - PORTRAIT **/
 @media screen and (max-device-width: 480px) and (orientation: portrait) {
     @supports (display: grid) {
         .flex-container {
@@ -110,7 +111,48 @@ body {
     }
 
     .flex-item door {
-        font-size: 18px !important;
+        font-size: 24px !important;
+    }
+
+    .header h1 {
+        font-size: 36px;
+    }
+}
+
+/** Responsive CSS for MOBILE PHONE - LANDSCAPE **/
+@media screen and (max-device-width: 640px) and (orientation: landscape) {
+    @supports (display: grid) {
+        .flex-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(calc(100% * (1 / 6) - 20px - 1px), 1fr));
+            grid-gap: 20px;
+            align-content: center;
+        }
+        .flex-container > * {
+            padding: 0;
+        }
+    }
+
+    .modal-container {
+        margin: auto auto;
+        position: relative;
+        outline: 0;
+        width: 70% !important;
+        max-width: 90%;
+        max-height: calc(100vh - 20px);
+        height: 80%;
+        display: block;
+        font-family: "Georgia";
+        overflow-y: scroll;
+        overflow: scroll;
+        text-align: center;
+        align-items: center;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .flex-item door {
+        font-size: 24px !important;
     }
 
     .header h1 {

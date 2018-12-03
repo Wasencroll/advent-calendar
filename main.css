@@ -463,6 +463,8 @@ body {
     width: 1px;
     min-width: 100%;
     *width: 100%;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 .modal-content iframe {

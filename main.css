@@ -65,7 +65,7 @@ body {
     }
 }
 
-@media (max-width: 880px) and (min-width: 501px) {
+@media (max-width: 880px) and (min-width: 481px) {
     @supports (display: grid) {
         .flex-container {
             display: grid;
@@ -78,7 +78,7 @@ body {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) and (max-device-width: 480px) {
     @supports (display: grid) {
         .flex-container {
             display: grid;

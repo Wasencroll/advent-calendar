@@ -18,19 +18,6 @@ body {
     display: table;
 }
 
-.outer-wrapper {
-    display: table;
-    height: 100%;
-    width: 100%;
-}
-
-.centered-wrapper {
-    display: table-cell;
-    vertical-align: middle;
-    height: 100%;
-    text-align: center;
-}
-
 .wrapper {
     height: 100%;
     width: 100%;
@@ -122,7 +109,7 @@ body {
         }
     }
 
-    .modal-container {
+    /*.modal-container {
         margin: auto auto;
         position: relative;
         outline: 0;
@@ -138,6 +125,16 @@ body {
         align-items: center;
         top: 50%;
         transform: translateY(-50%);
+    }*/
+
+    .outer-wrapper {
+        height: 90%;
+        margin: 0;
+        width: 80%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .flex-item door {
@@ -163,7 +160,7 @@ body {
         }
     }
 
-    .modal-container {
+   /* .modal-container {
         margin: auto auto;
         position: relative;
         outline: 0;
@@ -179,6 +176,16 @@ body {
         align-items: center;
         top: 50%;
         transform: translateY(-50%);
+    }*/
+
+    .outer-wrapper {
+        height: 90%;
+        margin: 0;
+        width: 60%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .flex-item door {
@@ -204,7 +211,7 @@ body {
         }
     }
 
-    .modal-container {
+    /*.modal-container {
         margin: auto auto;
         position: relative;
         outline: 0;
@@ -220,6 +227,16 @@ body {
         align-items: center;
         top: 50%;
         transform: translateY(-50%);
+    }*/
+
+    .outer-wrapper {
+        height: 90%;
+        margin: 0;
+        width: 70%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .flex-item door {
@@ -231,7 +248,7 @@ body {
     }
 }
 
-/** Responsive CSS for TABLET - LANDSCAPE **/
+/** Responsive CSS for Screens **/
 @media screen and (max-width: 768px) {
     @supports (display: grid) {
         .flex-container {
@@ -245,7 +262,7 @@ body {
         }
     }
 
-    .modal-container {
+    /*.modal-container {
         margin: auto auto;
         position: relative;
         outline: 0;
@@ -261,6 +278,16 @@ body {
         align-items: center;
         top: 50%;
         transform: translateY(-50%);
+    }*/
+
+    .outer-wrapper {
+        height: 90%;
+        margin: 0;
+        width: 70%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .flex-item door {
@@ -305,7 +332,6 @@ body {
 .modal {
     z-index: 3;
     display: none;
-    padding-top: 0%;
     position: fixed;
     left: 50%;
     top: 50%;
@@ -320,9 +346,46 @@ body {
     font-family: "Georgia";
 }
 
+.outer-wrapper {
+    height: 90%;
+    margin: 0;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .modal-container {
+    display: table;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-content-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    padding-top: calc(56.25% + 50px);
+    margin-top: calc(-56.25 - 50px);
+    position: absolute;
+    z-index: 20;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.inner-wrapper {
+    margin-top: calc(56.25% + 50px);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+/*.modal-container {
     margin: auto auto;
-    position: relative;
+    position: absolute;
     outline: 0;
     width: 50%;
     max-width: 90%;
@@ -331,23 +394,29 @@ body {
     display: block;
     font-family: "Georgia";
     overflow-y: scroll;
-    overflow: scroll;
     text-align: center;
     align-items: center;
     top: 50%;
-    transform: translateY(-50%);
-}
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid blue;
+}*/
 
-.modal-content-wrapper {
+
+/*.modal-content-wrapper {
     width: 100%;
     padding-top: calc(56.25% + 50px);
     height: auto;
-    top: 50%;
+
     transform: translateY(calc(-50% - 50px));
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0);
     position: relative;
     overflow-y: scroll;
-}
+    display: block;
+    vertical-align: middle;
+    align-items: center;
+    border: 4px solid yellow;
+}*/
 
 .modal-content {
     margin-top: calc(-56.25% - 50px);
@@ -361,6 +430,7 @@ body {
     overflow-y: scroll;
     text-align: center;
     justify-content: center;
+    /*transform: translateY(-50%);*/
 }
 
 .modal-container h2 {

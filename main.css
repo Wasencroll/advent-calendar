@@ -190,6 +190,87 @@ body {
     }
 }
 
+/** Responsive CSS for TABLET - LANDSCAPE **/
+@media screen and (max-device-width: 768px) and (orientation: portrait) {
+    @supports (display: grid) {
+        .flex-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(calc(100% * (1 / 6) - 20px - 1px), 1fr));
+            grid-gap: 20px;
+            align-content: center;
+        }
+        .flex-container > * {
+            padding: 0;
+        }
+    }
+
+    .modal-container {
+        margin: auto auto;
+        position: relative;
+        outline: 0;
+        width: 70% !important;
+        max-width: 90%;
+        max-height: calc(100vh - 20px);
+        height: 80%;
+        display: block;
+        font-family: "Georgia";
+        overflow-y: scroll;
+        overflow: scroll;
+        text-align: center;
+        align-items: center;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .flex-item door {
+        font-size: 36px !important;
+    }
+
+    .header h1 {
+        font-size: 48px;
+    }
+}
+
+/** Responsive CSS for TABLET - LANDSCAPE **/
+@media screen and (max-width: 768px) {
+    @supports (display: grid) {
+        .flex-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(calc(100% * (1 / 6) - 20px - 1px), 1fr));
+            grid-gap: 20px;
+            align-content: center;
+        }
+        .flex-container > * {
+            padding: 0;
+        }
+    }
+
+    .modal-container {
+        margin: auto auto;
+        position: relative;
+        outline: 0;
+        width: 70% !important;
+        max-width: 90%;
+        max-height: calc(100vh - 20px);
+        height: 80%;
+        display: block;
+        font-family: "Georgia";
+        overflow-y: scroll;
+        overflow: scroll;
+        text-align: center;
+        align-items: center;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .flex-item door {
+        font-size: 36px !important;
+    }
+
+    .header h1 {
+        font-size: 48px;
+    }
+}
 .flex-item figure {
     position: relative;
     overflow: hidden;
@@ -330,6 +411,7 @@ body {
     position: absolute;
     text-align: center;
     justify-content: center;
+    overflow: scroll;
 }
 
 .modal-content video {
